@@ -10,6 +10,11 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent
 LOG_FILE = SCRIPT_DIR / "effecounter.md"
 TEMPLATE = """\
+# what is effecounter?
+理想状態を阻む因子を計測するカウンターアプリ。ラベルLをつけて実行すると、タイムスタンプ付きでLが発生したことを記録する。実行時にコメントを書くこともできる。つまり、Lとして表現される因子が起きたときに、自ら起動することでその旨を記録する。
+
+effecounter は effectiveness counter の略であり、engineering effectiveness の考え方を参考にしている。なお、effecounter は指定ラベルが示すイベントの記録を行うだけであり、理想状態自体には言及しない。
+
 # labels
 - count1: ここは説明欄。count1ラベルに対する説明や背景を書く。
 
