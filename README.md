@@ -1,3 +1,5 @@
+[日本語](README.md) | [English](README_en.md)
+
 # effecounter
 理想状態を阻む因子を計測するカウンターアプリ。ラベルを指定して実行すると、タイムスタンプとコメント付きで `effecounter.md` に追記される。
 
