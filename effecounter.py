@@ -9,7 +9,12 @@ from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 LOG_FILE = SCRIPT_DIR / "effecounter.md"
-TEMPLATE = "# labels\n\n# logs\n"
+TEMPLATE = """\
+# labels
+- count1: ここは説明欄。count1ラベルに対する説明や背景を書く。
+
+# logs
+"""
 
 
 def open_log():
